@@ -1,7 +1,11 @@
-export default function App() {
+import Home from '@/pages/Home';
+
+function App() {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      ¡Tailwind funciona en Vite + TS!
+    <div className="min-h-screen">
+      <Home />
     </div>
   );
 }
+
+export default App;
