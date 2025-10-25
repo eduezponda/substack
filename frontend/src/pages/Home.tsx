@@ -1,14 +1,16 @@
-import Header from "@/components/layout/Header";
+import Header from "@/components/Home/Header";
+import Hero from "@/components/Home/Hero";
+import SectionBusinessObjective from "@/components/Home/SectionBusinessObjective";
+import SectionWhatWereNot from "@/components/Home/SectionWhatWereNot";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="border-0 border-none">
       <Header />
-      <main className="flex p-4 bg-red-500 justify-center">
-        <p className="text-center text-white-700">
-          Contenido de la Home (placeholder)
-        </p>
-      </main>
+      <Hero />
+      <SectionBusinessObjective />
+      <SectionWhatWereNot />
+
     </div>
   );
 }
