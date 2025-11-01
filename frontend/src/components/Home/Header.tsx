@@ -11,7 +11,6 @@ export default function Header() {
           Ezponda Capital
         </h1>
       </div>
-
       <img
         src="images/home/hamburguer.png"
         alt="Menu"
