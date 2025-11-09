@@ -1,11 +1,14 @@
-import Home from '@/pages/Home';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import BlogArticle from "./pages/BlogArticle"
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen">
-      <Home />
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog/:slug" element={<BlogArticle />} />
+      </Routes>
+    </Router>
+  )
 }
-
-export default App;
