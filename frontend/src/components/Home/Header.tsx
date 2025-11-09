@@ -7,7 +7,7 @@ export default function Header() {
           alt="Logo"
           className="w-8 h-8 object-contain"
         />
-        <h1 className="text-[#004AAD] font-bold text-2xl ml-3">
+        <h1 className="text-[#001B64] font-bold text-2xl ml-3">
           Ezponda Capital
         </h1>
       </div>

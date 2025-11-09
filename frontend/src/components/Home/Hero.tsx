@@ -3,7 +3,7 @@ export default function Hero() {
     <div className="relative w-full">
       <img
         src="/images/home/hero.jpeg"
-        alt="Imagen principal"
+        alt="Main section"
         className="w-full h-[calc(100vh-48px)] object-cover"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-start px-10 text-white bg-black/40">
