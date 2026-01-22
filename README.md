@@ -23,7 +23,7 @@ Este proyecto combina **Django REST Framework** en el backend con **React + Type
 |------------|------------|-------------|
 | **Lenguaje** | Python 3.11 + TypeScript | Backend + Frontend |
 | **Backend** | Django 5 + Django REST Framework | API REST |
-| **Frontend** | React 19 + Vite + Tailwind CSS + shadcn/ui | Interfaz moderna |
+| **Frontend** | React 19 + Vite + shadcn/ui | Interfaz moderna |
 | **Gestión de dependencias** | Poetry (Python) + npm (Node) | Entornos separados |
 | **Virtualización** | Docker Desktop + WSL2 | Aislamiento completo |
 | **Versiones de Python** | pyenv | Gestión de múltiples versiones |
